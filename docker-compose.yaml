@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    build: .
+    image: anton8963kobelev/yamdb_final:v1.04.11.21
     restart: always
     volumes:
       - static_value:/app/static/
